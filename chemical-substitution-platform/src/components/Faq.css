@@ -1,0 +1,68 @@
+/* src/components/FAQ.css */
+h2{
+    color:#0056b3;
+}
+.faq-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light grey background for the FAQ section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+ 
+  
+  .accordion-item {
+    border: none; /* Remove default border */
+    margin-bottom: 10px; /* Space between items */
+  }
+  
+  .accordion-button {
+    background-color: #87CEEB; /* Sky blue background for the accordion header */
+    color: #fff; /* White text for contrast */
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none; /* Remove default focus shadow */
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #0056b3; /* Darker blue when expanded */
+    color: #ffffff;
+  }
+  
+  .accordion-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #ffffff; /* White text */
+  }
+  
+  .accordion-body {
+    padding: 15px;
+    background-color: #ffffff; /* White background for the content */
+    border: 1px solid #ddd; /* Light border around the content */
+    border-radius: 5px; /* Slight rounding of the corners */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6; /* Improved readability with increased line height */
+  }
+  
+  .accordion-header {
+    margin-bottom: 0; /* Remove default margin */
+  }
+  
+  @media (max-width: 768px) {
+    .faq-section {
+      padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .accordion-button {
+      font-size: 0.9rem; /* Slightly smaller font on mobile */
+    }
+  
+    .accordion-body {
+      font-size: 0.9rem; /* Adjust body font size on mobile */
+    }
+  }
+  

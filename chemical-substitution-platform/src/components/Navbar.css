@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  padding: 10px 20px;
+  background-color: #47b1da; /* Sky blue color */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff; /* White color for the brand text */
+}
+
+.form-inline {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff; /* White color for nav links */
+  transition: font-weight 0.3s ease, color 0.3s ease; /* Smooth transition for font-weight and color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold; /* Bold text on hover */
+  color: #e0e0e0; /* Slightly lighter white on hover */
+}
+
+.navbar-nav .btn {
+  margin-left: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background color and text color */
+}
+
+.btn-primary {
+  background-color: #ffffff; /* White background color */
+  color: #236280; /* Blue text color for the button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #f0f0f0; /* Slightly lighter white on hover */
+  color: #0056b3; /* Darker blue text on hover */
+  font-weight: bolder; /* Bolder text on hover */
+}
